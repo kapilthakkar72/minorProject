@@ -1,100 +1,1968 @@
- <table id="Calendar1" cellspacing="0" cellpadding="1" rules="all" border="1" style="color:#266606;background-color:#FFFFC0;border-color:#266606;border-width:1px;border-style:Solid;height:1px;width:243px;border-collapse:collapse;">
-    <tr>
-        <td colspan="7" style="background-color:#004000;border-width:1px;border-style:solid;">
-            <table cellspacing="0" border="0" style="color:#FFFF80;font-weight:bold;width:100%;border-collapse:collapse;">
-                <tr>
-                    <td align="center" style="width:70%;">March 2015</td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td align="center" style="font-weight:bold;">Sun</td>
-        <td align="center" style="font-weight:bold;">Mon</td>
-        <td align="center" style="font-weight:bold;">Tue</td>
-        <td align="center" style="font-weight:bold;">Wed</td>
-        <td align="center" style="font-weight:bold;">Thu</td>
-        <td align="center" style="font-weight:bold;">Fri</td>
-        <td align="center" style="font-weight:bold;">Sat</td>
-    </tr>
-    <tr>
-        <td disabled="disabled" align="center" style="color:#C04000;background-color:#FFFFC0;border-style:Solid;width:14%;">22</td>
-        <td disabled="disabled" align="center" style="color:#C04000;background-color:#FFFFC0;border-style:Solid;width:14%;">23</td>
-        <td disabled="disabled" align="center" style="color:#C04000;background-color:#FFFFC0;border-style:Solid;width:14%;">24</td>
-        <td disabled="disabled" align="center" style="color:#C04000;background-color:#FFFFC0;border-style:Solid;width:14%;">25</td>
-        <td disabled="disabled" align="center" style="color:#C04000;background-color:#FFFFC0;border-style:Solid;width:14%;">26</td>
-        <td disabled="disabled" align="center" style="color:#C04000;background-color:#FFFFC0;border-style:Solid;width:14%;">27</td>
-        <td disabled="disabled" align="center" style="color:#C04000;background-color:#FFFFC0;border-style:Solid;width:14%;">28</td>
-    </tr>
-    <tr>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">
-            <a href="javascript:__doPostBack('Calendar1','5538')" style="color:#266606">1</a>
-        </td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">
-            <a href="javascript:__doPostBack('Calendar1','5539')" style="color:#266606">2</a>
-        </td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">
-            <a href="javascript:__doPostBack('Calendar1','5540')" style="color:#266606">3</a>
-        </td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">
-            <a href="javascript:__doPostBack('Calendar1','5541')" style="color:#266606">4</a>
-        </td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">
-            <a href="javascript:__doPostBack('Calendar1','5542')" style="color:#266606">5</a>
-        </td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">
-            <a href="javascript:__doPostBack('Calendar1','5543')" style="color:#266606">6</a>
-        </td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">
-            <a href="javascript:__doPostBack('Calendar1','5544')" style="color:#266606">7</a>
-        </td>
-    </tr>
-    <tr>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">
-            <a href="javascript:__doPostBack('Calendar1','5545')" style="color:#266606">8</a>
-        </td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">
-            <a href="javascript:__doPostBack('Calendar1','5546')" style="color:#266606">9</a>
-        </td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">
-            <a href="javascript:__doPostBack('Calendar1','5547')" style="color:#266606">10</a>
-        </td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">
-            <a href="javascript:__doPostBack('Calendar1','5548')" style="color:#266606">11</a>
-        </td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">
-            <a href="javascript:__doPostBack('Calendar1','5549')" style="color:#266606">12</a>
-        </td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">
-            <a href="javascript:__doPostBack('Calendar1','5550')" style="color:#266606">13</a>
-        </td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">14</td>
-    </tr>
-    <tr>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">15</td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">16</td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">17</td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">18</td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">19</td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">20</td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">21</td>
-    </tr>
-    <tr>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">22</td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">23</td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">24</td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">25</td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">26</td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">27</td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">28</td>
-    </tr>
-    <tr>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">29</td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">30</td>
-        <td align="center" style="color:#266606;background-color:#FFFFC0;border-style:Solid;width:14%;">31</td>
-        <td disabled="disabled" align="center" style="color:#C04000;background-color:#FFFFC0;border-style:Solid;width:14%;">1</td>
-        <td disabled="disabled" align="center" style="color:#C04000;background-color:#FFFFC0;border-style:Solid;width:14%;">2</td>
-        <td disabled="disabled" align="center" style="color:#C04000;background-color:#FFFFC0;border-style:Solid;width:14%;">3</td>
-        <td disabled="disabled" align="center" style="color:#C04000;background-color:#FFFFC0;border-style:Solid;width:14%;">4</td>
-    </tr>
+<table width=90% align=center>
+   <tr>
+      <td align=left><font size=3><b>Date&nbsp;&nbsp;17/03/2015 </font> </b></td>
+      <td width=100% align=center>
+         <font size=3 color=black>
+            <center><strong>Daily Retail Prices Of Essential Commodities</strong></center>
+         </font>
+      </td>
+      <td align=right><font size=4 > <b>Unit:&nbsp;(Rs./Kg.)</b></font></td>
+   </tr>
 </table>
+<center>
+<table width=90% style='margin:auto; font-size:16px;' cellspacing=0 & cellpadding=2 & border=2 align=top bordercolor=black>
+<tr>
+   <td  bgcolor=Gray align=center bordercolordark=black bordercolor=black bordercolorlight=black><b>Centre</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Rice</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Wheat</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Atta (Wheat)</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Gram Dal</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Tur/ Arhar Dal</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Urad Dal</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Moong Dal</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Masoor Dal</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Sugar</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Milk @</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Ground- nut Oil *</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Must- ard Oil *</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Vanas- pati *</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Soya Oil *</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Sun- flower Oil *</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Palm Oil *</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Gur</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Tea Loose</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Salt Pack (Iodised)</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Potato</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Onion</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Tomato</b></td>
+</tr>
+<tr bgcolor=Gray>
+   <td align=center colspan='23' bordercolordark=black bordercolor=black bordercolorlight=black border=2><strong><font size=4><i>NORTH ZONE</i></font></strong></td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>CHANDIGARH</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>30</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>18</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>22</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>48</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>76</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>62</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>90</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>72</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>36</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>38</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>145</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>92</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>78</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>85</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>100</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>40</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>225</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>15</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>12</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>26</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>36</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>DELHI</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>HISAR</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>KARNAL</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>PANCHKULA</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>GURGAON</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>SHIMLA</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>32</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>22</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>50</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>85</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>80</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>100</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>85</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>33</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>30</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>142</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>123</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>83</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>82</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>38</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>180</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>17</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>10</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>30</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>30</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>MANDI</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>30</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>20</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>48</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>89</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>83</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>104</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>74</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>31</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>28</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>116</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>76</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>80</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>29</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>17</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>10</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>25</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>30</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>SRINAGAR</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>JAMMU</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>AMRITSAR</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>30</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>18</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>22</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>50</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>74</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>72</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>90</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>70</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>36</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>40</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>134</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>97</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>71</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>92</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>100</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>42</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>223</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>18</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>12</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>20</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>30</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>LUDHIANA</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>BATHINDA</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>LUCKNOW</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>KANPUR</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>VARANASI</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>AGRA</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>DEHRADUN</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>20</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>18</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>22</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>52</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>80</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>82</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>106</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>80</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>34</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>36</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>132</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>85</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>78</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>87</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>138</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>36</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>220</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>17</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>20</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>30</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>25</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>HALDWANI</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>20</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>18</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>21</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>51</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>77</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>80</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>108</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>76</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>32</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>36</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>130</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>88</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>77</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>88</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>135</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>35</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>215</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>17</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>20</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>30</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>20</td>
+</tr>
+<tr></tr>
+</table>
+<center>
+   <table width=90% align=center>
+      <tr>
+         <td colspan=2><font size=4 color=Black><b>Source:-&nbsp;&nbsp;</b><I>State Civil Supplies Dept.</I></font></td>
+         <td width=30% align=right><font size=2 color=Black><b>NR</b> -> Not Reported &nbsp;&nbsp;&nbsp;&nbsp; <b>@</b> -> (Rs./Lt.)</font> &nbsp;&nbsp;&nbsp;&nbsp; <b>*</b> -> (Packed)</td>
+      </tr>
+      <tr>
+         <td colspan=3><font size=3 color=Black><b>Note:-&nbsp;1. </b>Difference in prices of a commodity at different centres is partly attributed to variety differences. In case of Edible oils and Tea difference in prices is due to ordinary/refined or loose/packed type.</font></td>
+      </tr>
+      <tr>
+         <td width=30%>&nbsp;</td>
+         <td width=auto align=center><b>Developed by:-&nbsp;&nbsp;</b>National Informatics Centre(NIC)</td>
+         <td width=30% align=right>&nbsp;Continue.....</td>
+      </tr>
+   </table>
+</center>
+<table style=page-break-after:always;>
+   <tr>
+      <td>&nbsp;</td>
+   </tr>
+</table>
+<div>
+   <div style='width:20%; float:left;'>&nbsp;</div>
+   <div style='width:60%; float:left; text-align:center;'><b>Department of Consumer Affairs&nbsp( Price Monitoring Cell)</b></div>
+   <div style='width:10%;float:right; text-align:right;padding-right:80px;'><font size=2><b>Table 3</b></font></div>
+</div>
+<table width=90% align=center>
+   <tr>
+      <td align=left><font size=3><b>Date&nbsp;&nbsp;17/03/2015 </font> </b></td>
+      <td width=100% align=center>
+         <font size=3 color=black>
+            <center><strong>Daily Retail Prices Of Essential Commodities</strong></center>
+         </font>
+      </td>
+      <td align=right><font size=4 > <b>Unit:&nbsp;(Rs./Kg.)</b></font></td>
+   </tr>
+</table>
+<center>
+<table width=90% style='margin:auto;font-size:16px;' cellspacing=0 & cellpadding=2 & border=2 align=top bordercolor=black>
+<tr>
+   <td  bgcolor=Gray align=center bordercolordark=black bordercolor=black bordercolorlight=black><b>Centre</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Rice</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Wheat</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Atta (Wheat)</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Gram Dal</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Tur/ Arhar Dal</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Urad Dal</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Moong Dal</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Masoor Dal</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Sugar</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Milk @</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Ground- nut Oil *</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Must- ard Oil *</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Vanas- pati *</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Soya Oil *</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Sun- flower Oil *</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Palm Oil *</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Gur</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Tea Loose</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Salt Pack (Iodised)</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Potato</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Onion</b></td>
+   <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Tomato</b></td>
+</tr>
+<tr bgcolor=Gray>
+   <td align=center colspan='23' bordercolordark=black bordercolor=black bordercolorlight=black border=2><strong><font size=4><i>WEST ZONE</i></font></strong></td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>RAIPUR</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>PANAJI</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>AHMEDABAD</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>RAJKOT</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>BHOPAL</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>INDORE</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>26</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>18</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>22</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>46</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>87</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>74</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>94</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>75</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>30</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>37</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>115</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>85</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>62</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>80</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>87</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>34</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>210</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>9</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>10</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>15</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>15</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>GWALIOR</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>JABALPUR</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>REWA</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>SAGAR</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>MUMBAI</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>NAGPUR</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>JAIPUR</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>JODHPUR</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>KOTA</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr bgcolor=Gray>
+   <td align=center colspan='23' bordercolordark=black bordercolor=black bordercolorlight=black border=2><strong><font size=4><i>EAST ZONE</i></font></strong></td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>PATNA</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>24</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>17</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>20</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>50</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>85</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>80</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>65</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>32</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>38</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>90</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>55</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>70</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>35</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>180</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>17</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>8</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>20</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>15</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>BHAGALPUR</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>PURNIA</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>RANCHI</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>BHUBANESHWAR</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>CUTTACK</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>SAMBALPUR</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>ROURKELA</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>KOLKATA</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr>
+   <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>SILIGURI</font></td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+</tr>
+<tr></tr>
+</table>
+<center>
+   <table width=90% align=center>
+      <tr>
+         <td colspan=2><font size=4 color=Black><b>Source:-&nbsp;&nbsp;</b><I>State Civil Supplies Dept.</I></font></td>
+         <td width=30% align=right><font size=2 color=Black><b>NR</b> -> Not Reported &nbsp;&nbsp;&nbsp;&nbsp; <b>@</b> -> (Rs./Lt.)</font> &nbsp;&nbsp;&nbsp;&nbsp; <b>*</b> -> (Packed)</td>
+      </tr>
+      <tr>
+         <td colspan=3><font size=3 color=Black><b>Note:-&nbsp;1. </b>Difference in prices of a commodity at different centres is partly attributed to variety differences. In case of Edible oils and Tea difference in prices is due to ordinary/refined or loose/packed type.</font></td>
+      </tr>
+      <tr>
+         <td width=30%>&nbsp;</td>
+         <td width=auto align=center><b>Developed by:-&nbsp;&nbsp;</b>National Informatics Centre(NIC)</td>
+         <td width=30% align=right>&nbsp;Continue.....</td>
+      </tr>
+   </table>
+</center>
+<table style=page-break-after:always;>
+   <tr>
+      <td>&nbsp;</td>
+   </tr>
+</table>
+<div>
+   <div style='width:20%; float:left;'>&nbsp;</div>
+   <div style='width:60%; float:left; text-align:center;'><b>Department of Consumer Affairs&nbsp( Price Monitoring Cell)</b></div>
+   <div style='width:10%;float:right; text-align:right;padding-right:80px;'><font size=2><b>Table 3</b></font></div>
+</div>
+
+<center>
+   <table width=90% style='margin:auto;font-size:16px;' cellspacing=0 & cellpadding=2 & border=2 align=top bordercolor=black>
+   <tr>
+      <td  bgcolor=Gray align=center bordercolordark=black bordercolor=black bordercolorlight=black><b>Centre</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Rice</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Wheat</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Atta (Wheat)</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Gram Dal</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Tur/ Arhar Dal</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Urad Dal</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Moong Dal</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Masoor Dal</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Sugar</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Milk @</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Ground- nut Oil *</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Must- ard Oil *</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Vanas- pati *</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Soya Oil *</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Sun- flower Oil *</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Palm Oil *</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Gur</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Tea Loose</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Salt Pack (Iodised)</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Potato</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Onion</b></td>
+      <td align=top bordercolordark=black bordercolor=black bordercolorlight=black><b>Tomato</b></td>
+   </tr>
+   <tr bgcolor=Gray>
+      <td align=center colspan='23' bordercolordark=black bordercolor=black bordercolorlight=black border=2><strong><font size=4><i>NORTH-EAST ZONE</i></font></strong></td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>ITANAGAR</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>GUWAHATI</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>SHILLONG</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>AIZWAL</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>DIMAPUR</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>AGARTALA</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>27</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>27</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>52</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>56</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>74</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>74</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>75</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>35</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>40</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>46</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>178</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>16</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>16</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>27</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>12</td>
+   </tr>
+   <tr bgcolor=Gray>
+      <td align=center colspan='23' bordercolordark=black bordercolor=black bordercolorlight=black border=2><strong><font size=4><i>SOUTH ZONE</i></font></strong></td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>PORT BLAIR</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>HYDERABAD</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>VIJAYWADA</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>VISAKHAPATNAM</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>BENGALURU</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>DHARWAD</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>T.PURAM</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>ERNAKULAM</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>KOZHIKODE</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>THRISSUR</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>PALAKKAD</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>WAYANAD</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>PUDUCHERRY</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>CHENNAI</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>DINDIGUL</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>THIRUCHIRAPALLI</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>COIMBATORE</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td align=left bordercolordark=black bordercolor=black bordercolorlight=black border=2><font size=3>TIRUNELVELI</font></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center>NR</td>
+   </tr>
+   <tr>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=right><b> Maximum Price </b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>32</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>18</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>27</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>52</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>89</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>83</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>108</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>85</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>36</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>40</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>145</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>123</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>83</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>92</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>138</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>70</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>46</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>225</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>18</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>20</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>30</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>36</I></b></td>
+   </tr>
+   <tr>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=right> <b>Minimum Price</b> </td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>20</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>17</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>20</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>46</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>56</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>62</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>74</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>65</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>30</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>28</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>115</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>85</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>55</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>80</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>87</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>70</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>29</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>178</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>9</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>8</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>15</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>12</I></b></td>
+   </tr>
+   <tr>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=right> <b>Modal Price</b> </td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>30</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>18</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>22</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>50</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>85</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>80</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>90</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>75</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>34</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>38</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>133</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>85</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>78</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>80</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>100</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>70</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>35</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>180</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>17</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>10</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>30</I></b></td>
+      <td bordercolordark=black bordercolor=black bordercolorlight=black align=center><b><I>30</I></b></td>
+   </tr>
+   </table>
+</center>
+<center>
+   <table width=90% align=center>
+      <tr>
+         <td colspan=2><font size=4 color=Black><b>Source:-&nbsp;&nbsp;</b><I>State Civil Supplies Dept.</I></font></td>
+         <td width=30% align=right><font size=2 color=Black><b>NR</b> -> Not Reported &nbsp;&nbsp;&nbsp;&nbsp; <b>@</b> -> (Rs./Lt.)</font> &nbsp;&nbsp;&nbsp;&nbsp; <b>*</b> -> (Packed)</td>
+      </tr>
+      <tr>
+         <td colspan=3><font size=3 color=Black><b>Note:-&nbsp;1. </b>Difference in prices of a commodity at different centres is partly attributed to variety differences. In case of Edible oils and Tea difference in prices is due to ordinary/refined or loose/packed type.</font></td>
+      </tr>
+      <tr>
+         <td width=30%>&nbsp;</td>
+         <td width=auto align=center><b>Developed by:-&nbsp;&nbsp;</b>National Informatics Centre(NIC)</td>
+         <td width=30% align=right>&nbsp;</td>
+      </tr>
+   </table>
+</center>

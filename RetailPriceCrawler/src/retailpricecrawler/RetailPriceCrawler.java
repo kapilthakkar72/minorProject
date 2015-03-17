@@ -5,11 +5,13 @@
  */
 package retailpricecrawler;
 
+import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
@@ -42,7 +44,7 @@ public
 
             wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.id("MainContent_Ddl_Rpt_Option0")));
 
-            org.openqa.selenium.support.ui.Select locator = new org.openqa.selenium.support.ui.Select(driver.findElement(By.id("MainContent_Ddl_Rpt_Option0")));
+            Select locator = new Select(driver.findElement(By.id("MainContent_Ddl_Rpt_Option0")));
 
             locator.getOptions().get(1).click();
 
@@ -50,6 +52,22 @@ public
             textElement.sendKeys(i + "/02/2015");
 
             driver.findElement(By.id("MainContent_btn_getdata1")).click();
+
+            /**
+             * ****************************************************************
+             * PARSE DATA HERE *
+             * ****************************************************************
+             */
+            if (!driver.findElement(By.tagName("body")).getText().contains("Sorry, Data does not exist for this date"))
+
+            {
+                parseData(driver);
+            }
+            /**
+             * *****************************************************************
+             * PARSING DONE *
+             * ****************************************************************
+             */
 
             wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.id("btn_back")));
 
@@ -59,6 +77,164 @@ public
 
         }
 
+    }
+
+    private static
+            void parseData(WebDriver driver)
+    {
+        // Get All The tables from the page
+        List<WebElement> allTables = driver.findElements(By.tagName("table"));
+
+        // We need to parse tables which all are required
+        // Consider all tables one by one
+        String date = "";
+        String unitInKG = "";
+        String unitInLt = "";
+
+        for (int i = 0; i < allTables.size(); i++)
+        {
+            /* Now Tables have format like this
+             1. Table Stating Heading caption, date, price unit, etc
+             2. Actual Data Of reatil prices
+             3. Some information regarding notes and sources
+             4. Useless Table
+             So Looking at this order we will parse table
+             */
+
+            if (i % 3 == 0)
+            {
+                // Table Type 1
+                // Get Date and Unit of Price 
+                // Consists Only One Row
+                // consists of 3 elements
+                // Date - Daily Retail Prices Of Essential Commodities - Unit
+
+                // Get the row
+                WebElement row = allTables.get(i).findElement(By.tagName("tr"));
+
+                // Get 3 Cells (Columns)
+                List<WebElement> cells = row.findElements(By.tagName("td"));
+
+                // 1st Element has of format : Date<space><space><Actual Date>
+                String temp = cells.get(0).getText();
+                String elements[] = temp.split("  ");
+                date = elements[1];
+
+                // 3rd element consists of price
+                // and has format Unit:&nbsp;(Rs./Kg.)
+                temp = cells.get(2).getText();
+                elements = temp.split(" ");
+                unitInKG = elements[1];
+            }
+            else if (i % 3 == 2)
+            {
+                // Table type 3
+                // Parsing this before to get unit of Milk
+
+                // Consists Of 3 rows
+                // Only 1st is important
+                // get rows
+                List<WebElement> rows = allTables.get(i).findElements(By.tagName("tr"));
+
+                // first row has 2 cells, out of which 2nd is required
+                // get the cells of the first row
+                List<WebElement> cells = rows.get(0).findElements(By.tagName("td"));
+
+                // 2nd cells consists text as
+                // <font size=2 color=Black><b>NR</b> -> Not Reported &nbsp;&nbsp;&nbsp;&nbsp; <b>@</b> -> (Rs./Lt.)</font> &nbsp;&nbsp;&nbsp;&nbsp; <b>*</b> -> (Packed)
+                // What to do now ???
+            }
+            else if (i % 3 == 1)
+            {
+                // Table type 2                
+                // Actual data                
+                // Now this tables has some rows
+                // 1st row is always with the list of commodities, in that also
+                // 1st cell is always "center"
+
+                // with the rest of the rows, if it has only one element, then it is stating zone
+                // else if it has more than one element then first element is center i.e. place
+                // and rest is the retail price
+                // So lets do it
+                // get all rows
+                List<WebElement> rows = allTables.get(i).findElements(By.tagName("tr"));
+
+                // process each row
+                List<WebElement> commodities = null;
+                for (int j = 0; j < rows.size(); j++)
+                {
+                    if (j == 0)
+                    {
+                        // its 1st row
+                        // all commodities
+                        // get all cells/columns/elements
+                        commodities = rows.get(j).findElements(By.tagName("td"));
+                        // So these cells has all the commodity list 
+                        // EXCEPT first cell, which has word "center"
+                        continue;
+                    }
+
+                    // Other than first row
+                    // get cells
+                    List<WebElement> cells = rows.get(j).findElements(By.tagName("td"));
+
+                    if (cells.size() == 1)
+                    {
+                        // Consists ZONE
+                        // NOT Required
+                    }
+                    else
+                    {
+                        // Consists data
+                        // 1st element is Center
+                        // Rest Prices Of Commodities
+
+                        // Process This
+                        for (int k = 1; k < cells.size(); k++)
+                        {
+                            System.out.print("Date:" + date + " ");
+
+                            if (!commodities.isEmpty())
+                            {
+                                String commoTemp = commodities.get(k).getText();
+                                if (commoTemp.contains("@"))
+                                {
+                                    commoTemp = commoTemp.replace("@", "");
+                                    System.out.print("Comodity:" + commoTemp + " ");
+                                    System.out.print("Unit: " + unitInLt + " ");
+                                }
+                                else
+                                {
+                                    if (commoTemp.contains("*"))
+                                    {
+                                        commoTemp = commoTemp.replace("*", "");
+                                    }
+                                    System.out.print("Comodity:" + commoTemp + " ");
+                                    System.out.print("Unit: " + unitInKG + " ");
+                                }
+                            }
+                            else
+                            {
+                                System.out.println("Error! Commodity List not initialised");
+                            }
+
+                            System.out.print("Center:" + cells.get(0).getText() + " ");
+                            System.out.print("Price:" + cells.get(k).getText());
+                            System.out.println("");
+                        }
+
+                    }
+                }
+            }
+
+            else if (i % 3 == 3)
+            {
+                // Table type 4
+                // We do not need to parse this table
+            }
+        }
+
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
 }
