@@ -5,6 +5,10 @@
  */
 package retailpricecrawler;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -29,9 +33,44 @@ public
             void main(String[] args)
     {
 
+        int noOfYears = 15;
+        int latestMonth = 3;
+        int latestDate = 15;
+        int latestYear = 2015;
+
         WebDriver driver = new FirefoxDriver();
 
         driver.get("http://fcainfoweb.nic.in/PMSver2/Reports/Report_Menu_web.aspx");
+
+        /*  List<String> years = populateYears(noOfYears);
+         List<String> months = populateMonths();
+         List<String> dates = populateDates();
+         String date = "";
+         for (int j = 0; j < years.size(); j++)
+         {
+         for (int k = 0; k < months.size(); k++)
+         {
+         if (years.get(j).equals(Integer.toString(latestYear)) && Integer.parseInt(months.get(k)) > latestMonth)
+         {
+         continue;
+         }
+         for (int l = 0; l < dates.size(); l++)
+         {
+         if (years.get(j).equals(Integer.toString(latestYear)) && months.get(k).equals(Integer.toString(latestMonth)) && Integer.parseInt(dates.get(l)) > latestDate)
+         {
+         continue;
+         }
+         if (validateDate(dates.get(l), months.get(k), years.get(j)))
+         {
+         date = generateDate(dates.get(l), months.get(k), years.get(j));
+         }
+         }
+         }
+         }*/
+        DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+        Calendar cal = Calendar.getInstance();
+
+        String dateTofetch = dateFormat.format(cal.getTime());
 
         for (int i = 1; i < 20; i++)
         {
@@ -49,7 +88,9 @@ public
             locator.getOptions().get(1).click();
 
             WebElement textElement = driver.findElement(By.id("MainContent_Txt_FrmDate"));
-            textElement.sendKeys(i + "/02/2015");
+
+            // Here We are sending Date ... We need to generate the all dates, but how?
+            textElement.sendKeys(dateTofetch);
 
             driver.findElement(By.id("MainContent_btn_getdata1")).click();
 
@@ -72,6 +113,9 @@ public
             wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.id("btn_back")));
 
             driver.findElement(By.id("btn_back")).click();
+
+            cal.add(Calendar.DATE, -1);
+            dateTofetch = dateFormat.format(cal.getTime());
 
             System.out.println("Run Complete " + i);
 
@@ -101,7 +145,11 @@ public
              So Looking at this order we will parse table
              */
 
-            if (i % 3 == 0)
+            // For debug purpose
+            System.out.println("Table :" + (i) + "\n\n" + allTables.get(i).getText());
+            System.out.println("\n\n");
+
+            if (i % 4 == 0)
             {
                 // Table Type 1
                 // Get Date and Unit of Price 
@@ -126,7 +174,7 @@ public
                 elements = temp.split(" ");
                 unitInKG = elements[1];
             }
-            else if (i % 3 == 2)
+            else if (i % 4 == 2)
             {
                 // Table type 3
                 // Parsing this before to get unit of Milk
@@ -144,7 +192,7 @@ public
                 // <font size=2 color=Black><b>NR</b> -> Not Reported &nbsp;&nbsp;&nbsp;&nbsp; <b>@</b> -> (Rs./Lt.)</font> &nbsp;&nbsp;&nbsp;&nbsp; <b>*</b> -> (Packed)
                 // What to do now ???
             }
-            else if (i % 3 == 1)
+            else if (i % 4 == 1)
             {
                 // Table type 2                
                 // Actual data                
@@ -178,6 +226,14 @@ public
                     // get cells
                     List<WebElement> cells = rows.get(j).findElements(By.tagName("td"));
 
+                    if (cells.size() >= 1)
+                    {
+                        String firstCellData = cells.get(0).getText();
+                        if (firstCellData.equals("Maximum Price") || firstCellData.equals("Minimum Price") || firstCellData.equals("Modal Price"))
+                        {
+                            continue; // We can also write break over here
+                        }
+                    }
                     if (cells.size() == 1)
                     {
                         // Consists ZONE
@@ -227,14 +283,97 @@ public
                 }
             }
 
-            else if (i % 3 == 3)
+            else if (i % 4 == 3)
             {
                 // Table type 4
                 // We do not need to parse this table
             }
         }
 
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    private static
+            List<String> populateYears(int noOfYears)
+    {
+        List<String> years = new ArrayList();
+
+        for (int i = 0; i < noOfYears; i++)
+        {
+            years.add(Integer.toString(2015 - i));
+        }
+
+        return years;
+    }
+
+    private static
+            List<String> populateMonths()
+    {
+        List<String> months = new ArrayList();
+
+        for (int i = 0; i < 12; i++)
+        {
+            months.add(Integer.toString(1 + i));
+        }
+
+        return months;
+    }
+
+    private static
+            List<String> populateDates()
+    {
+        List<String> dates = new ArrayList();
+
+        for (int i = 0; i < 31; i++)
+        {
+            dates.add(Integer.toString(1 + i));
+        }
+
+        return dates;
+    }
+
+    private static
+            String generateDate(String date, String month, String year)
+    {
+        return date + "/" + month + "/" + year;
+    }
+
+    private static
+            boolean validateDate(String dateS, String monthS, String yearS)
+    {
+
+        int date = Integer.parseInt(dateS);
+        int month = Integer.parseInt(monthS);
+        int year = Integer.parseInt(yearS);
+
+        switch (month)
+
+        {
+            case 2:  // February
+                if (year % 4 == 0)
+                {
+                    if (date > 29)
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    if (date > 28)
+                    {
+                        return false;
+                    }
+                }
+            case 4: // April
+            case 6: // June
+            case 9: // September
+            case 11: // November
+                if (date > 30)
+                {
+                    return false;
+                }
+        }
+
+        return true;
     }
 
 }
