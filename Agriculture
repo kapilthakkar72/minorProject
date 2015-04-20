@@ -1,0 +1,73 @@
+State:Andhra Pradesh Mandi:Darsi Commodity:Cotton Arrival:0.1 unitOfArrivalTonnes varietyDesi gradeMedium minimumPrice3500 maximumPrice3600 modalPrice3550 unitOfPriceRs/Quintal
+
+create database "Agriculture";
+
+\c Agriculture
+
+sudo -u postgres psql Agriculture
+
+CREATE TABLE STATES(
+State VARCHAR(50),
+StateCode SERIAL PRIMARY KEY);
+
+CREATE TABLE MANDIS(
+MandiCode SERIAL PRIMARY KEY,
+MandiName VARCHAR(200),
+StateCode INT NOT NULL REFERENCES STATES(StateCode),
+Location VARCHAR(500));
+
+CREATE TABLE COMMODITY(
+CommodityCode SERIAL PRIMARY KEY,
+CommodityName Varchar(100),
+Type VARCHAR(100)) ///Type is to categorize the commodity.
+
+CREATE TABLE VARIETY(
+CommQualityCode SERIAL PRIMARY KEY,
+CommodityCode INT NOT NULL REFERENCES Commodity(CommodityCode),
+Variety VARCHAR(100),
+Grade Varchar(100))
+
+
+CREATE TABLE WholeSaleData(
+CommQualityCode INT NOT NULL REFERENCES VARIETY(CommQualityCode),
+MandiCode INT REFERENCES MANDIS(MandiCode),
+Date DATE,
+Arrival DECIMAL,
+UnitOfArrival VARCHAR(100),
+MinimumPrice DECIMAL,
+MaximumPrice DECIMAL,
+ModalPrice DECIMAL,
+UnitOfPrice VARCHAR(100)
+)
+
+
+CREATE TABLE Center(
+CenterCode SERIAL PRIMARY KEY,
+CenterName VARCHAR(150),
+StateCode INT NOT NULL REFERENCES STATES(StateCode),
+Location VARCHAR(200)
+)
+
+CREATE TABLE RetailPriceData(
+CommQualityCode INT NOT NULL REFERENCES VARIETY(CommQualityCode),
+CenterCode INT NOT NULL REFERENCES Center(CenterCode),
+Price DECIMAL,
+UnitOfPrice VARCHAR(100),
+Date DATE
+)
+
+
+delete from STATES;
+delete from MANDIS;
+delete from COMMODITY;
+delete from VARIETY;
+delete from WholeSaleData;
+delete from Center;
+delete from RetailPriceData;
+
+
+ALTER SEQUENCE center_centercode_seq restart with 1;     
+ALTER SEQUENCE commodity_commoditycode_seq restart with 1;
+ALTER SEQUENCE mandis_mandicode_seq   restart with 1;
+ALTER SEQUENCE states_statecode_seq  restart with 1;
+ALTER SEQUENCE variety_commqualitycode_seq  restart with 1;
